@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script type="text/javascript" src="bundle.js"></script>
-    <title>Ping Pong</title>
-  </head>
-  <body>
-    <form id="ping-pong-form">
-      <label for="goal">Enter a number:</label>
-      <input id="goal" type="number">
-      <button type="submit">Submit</button>
-    </form>
-    <ul id="solution"></ul>
-  </body>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+  <title>Date Calculator</title>
+</head>
+
+<body>
+  <h1>Let's find out what day of the week that was / will be!</h1>
+  <form id="date-input-form">
+    <div class="form-group">
+      <label for="day">Enter a day of the month(Past or present):</label>
+      <input id="day" type="number">
+    </div>  
+    <div class="form-group">
+      <label for="month">Enter a month of the year(Past or present):</label>
+      <input id="month" type="number">
+    </div>
+    <div class="form-group">
+      <label for="year">Enter a year(Past or present):</label>
+      <input id="year" type="number">
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <ul id="solution"></ul>
+</body>
+
 </html>

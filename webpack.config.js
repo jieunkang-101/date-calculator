@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Project name',  // add name
+      title: 'Date Caculator', 
       template: './src/index.html',
       inject: 'body'
     })
